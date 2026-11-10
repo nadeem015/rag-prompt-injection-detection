@@ -1,0 +1,16 @@
+# Versions below are those actually used to run the tests and analysis scripts in this project
+# (Python 3.13.x). The two stored .joblib models were pickled with scikit-learn 1.8.0 and load
+# under 1.9.1 with a version warning (inference reproduced to 2.2e-16). For bit-exact loading use
+# scikit-learn==1.8.0.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.8,<2
+joblib>=1.4
+matplotlib>=3.8
+# UI (NOT installed or launched in the environment where this package was prepared)
+streamlit>=1.35
+# optional PDF ingestion
+pypdf>=4.0
+# tests
+pytest>=8.0

@@ -1,0 +1,3 @@
+Prompt injection is an attack in which text supplied to a language model tries to override the developer's intended instructions. In direct injection the attacker types the malicious text. In indirect injection the text is hidden in external content, such as a web page or document, that the system later retrieves.
+
+Recommended defences are layered: separate trusted instructions from untrusted data, limit model permissions, validate tool calls in application code, and monitor for suspicious content.

@@ -1,0 +1,5 @@
+configuration,total_cases,attack_cases,attack_block_rate,attack_exposure_rate,benign_acceptance_rate,false_block_rate,query_attack_detections,context_attack_detections
+no_defense,30,18,0.0,1.0,1.0,0.0,0,0
+input_filtering,30,18,0.5556,0.4444,1.0,0.0,10,0
+context_filtering,30,18,0.4444,0.5556,1.0,0.0,0,8
+combined_defense,30,18,1.0,0.0,1.0,0.0,10,8

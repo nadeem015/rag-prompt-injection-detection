@@ -1,0 +1,26 @@
+{
+  "script": "experiments/run_final_analysis.py",
+  "kind": "post-hoc analysis of stored predictions; NO retraining; NO new data downloaded",
+  "inputs_sha256": {
+    "all_test_predictions.csv": "65fda4516897bc5f7fd2a6f22e1fb5ad2063ad8d526fb8546be8a1f17c48999f",
+    "final_summary_metrics.csv": "5e1e84b9c845cf5b26c91711c0523ca184c7a715a4abe5198b18c6e36cc81bbf",
+    "per_dataset_metrics.csv": "a0b2e2df02fb5e4af9ed041dc455752c0b4795e86dc08da7b1472824df25015f",
+    "validation_summary.csv": "a909688c4eff64dbc2ac7c820383d9974edbef7653b2d844ea2b763e171f5037",
+    "validation_threshold_sweep.csv": "349d8d2c547aff1b41e1fc7a1e734a968f79875ad0d47c8587e58e01af173937",
+    "word_char_tfidf.joblib": "36952187ba9467a5957128651f2522c39738a29994114645df02fe517f2f8478",
+    "word_tfidf.joblib": "29624afc1d77326c442a29f5befb437d9fa1b7bd60d75c65c916ef30fe673350"
+  },
+  "frozen_rules_sha256": "b757469428dcac0d60adeb920ba4a480d1bce728132b9d4a60fc18caa9683677",
+  "rule_threshold": 0.5,
+  "hybrid_or": "rule OR p>=thr",
+  "hybrid_fusion": "min(1,p+0.10*rule)>=thr",
+  "ml_thresholds": {
+    "word_tfidf": 0.47,
+    "word_char_tfidf": 0.6
+  },
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 42,
+  "verification_max_abs_diff": 1.1102230246251565e-16,
+  "numpy": "2.5.3",
+  "pandas": "3.0.5"
+}

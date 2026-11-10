@@ -1,0 +1,81 @@
+model,direction,rank,feature,coef
+word_tfidf,injection,1,the,2.946689904175502
+word_tfidf,injection,2,to,2.4919486746879267
+word_tfidf,injection,3,call,2.3002863649582164
+word_tfidf,injection,4,your,2.0788916573108684
+word_tfidf,injection,5,on the,2.0228168821317754
+word_tfidf,injection,6,all,1.973674500643019
+word_tfidf,injection,7,example,1.9255674262574929
+word_tfidf,injection,8,every,1.8991500493597278
+word_tfidf,injection,9,user,1.8924682259294041
+word_tfidf,injection,10,this,1.8786126117065527
+word_tfidf,injection,11,by,1.8086286630675603
+word_tfidf,injection,12,you,1.7739469463302282
+word_tfidf,injection,13,the user,1.6190053432063336
+word_tfidf,injection,14,to the,1.5664224467322463
+word_tfidf,injection,15,without,1.511071953428209
+word_tfidf,injection,16,treat,1.5070075277652888
+word_tfidf,injection,17,note,1.5050890186000292
+word_tfidf,injection,18,assistant,1.4303135842377495
+word_tfidf,injection,19,has,1.3165022951406582
+word_tfidf,injection,20,now,1.2792607332094865
+word_tfidf,benign,1,an,-4.101860772892804
+word_tfidf,benign,2,can,-3.5124187333768293
+word_tfidf,benign,3,how,-3.2616676781079
+word_tfidf,benign,4,what,-3.0894676786842497
+word_tfidf,benign,5,me,-2.9697450292767087
+word_tfidf,benign,6,our,-2.9040352617687613
+word_tfidf,benign,7,that,-2.7555052155556745
+word_tfidf,benign,8,explain,-2.5811125698326114
+word_tfidf,benign,9,why,-2.340631566198294
+word_tfidf,benign,10,my,-1.9734091916997398
+word_tfidf,benign,11,draft,-1.9418491213298579
+word_tfidf,benign,12,help me,-1.9152580283100131
+word_tfidf,benign,13,can you,-1.859072743279666
+word_tfidf,benign,14,attempt,-1.8030002771055609
+word_tfidf,benign,15,help,-1.6517613939151614
+word_tfidf,benign,16,please,-1.6054436203924125
+word_tfidf,benign,17,an agent,-1.5590544424457295
+word_tfidf,benign,18,injection,-1.5130208586495582
+word_tfidf,benign,19,we,-1.497015934343564
+word_tfidf,benign,20,whether,-1.4948802785330453
+word_char_tfidf,injection,1,word__the,1.6535153698349867
+word_char_tfidf,injection,2,word__to,1.366987512961909
+word_char_tfidf,injection,3,word__call,1.3135243175661582
+word_char_tfidf,injection,4,word__your,1.22742210417587
+word_char_tfidf,injection,5,word__user,1.1862750217641091
+word_char_tfidf,injection,6,word__on the,1.099614349050395
+word_char_tfidf,injection,7,word__all,1.070812019088709
+word_char_tfidf,injection,8,word__by,1.0670167403672872
+word_char_tfidf,injection,9,word__you,1.0292958354144168
+word_char_tfidf,injection,10,word__the user,1.024700626547481
+word_char_tfidf,injection,11,word__example,1.014351189601553
+word_char_tfidf,injection,12,word__every,1.0113757425353778
+word_char_tfidf,injection,13,word__to the,0.9988425887631892
+word_char_tfidf,injection,14,word__this,0.9230414788934019
+word_char_tfidf,injection,15,char__all ,0.8843850634360885
+word_char_tfidf,injection,16,char__ you,0.8627366011199926
+word_char_tfidf,injection,17,char__ yo,0.8627366011199926
+word_char_tfidf,injection,18,char__all,0.8500273841606121
+word_char_tfidf,injection,19,char__ call,0.844059390311717
+word_char_tfidf,injection,20,word__treat,0.840977717894148
+word_char_tfidf,benign,1,word__an,-2.4795426273291667
+word_char_tfidf,benign,2,word__can,-2.033824776504233
+word_char_tfidf,benign,3,word__me,-1.809481709014684
+word_char_tfidf,benign,4,word__how,-1.7989382038460746
+word_char_tfidf,benign,5,word__our,-1.7901353142004393
+word_char_tfidf,benign,6,char__ a ,-1.6780182741516474
+word_char_tfidf,benign,7,word__what,-1.6695738725484799
+word_char_tfidf,benign,8,word__that,-1.57010583576293
+word_char_tfidf,benign,9,char__an ,-1.558649465590743
+word_char_tfidf,benign,10,word__my,-1.391427099221276
+word_char_tfidf,benign,11,word__explain,-1.323099944804068
+word_char_tfidf,benign,12,char__ i ,-1.3184059098326881
+word_char_tfidf,benign,13,char__ wh,-1.2698392331872157
+word_char_tfidf,benign,14,word__help me,-1.2266210909514277
+word_char_tfidf,benign,15,word__why,-1.224871057997095
+word_char_tfidf,benign,16,char__ an ,-1.1685997463658009
+word_char_tfidf,benign,17,char__hat,-1.127613026051087
+word_char_tfidf,benign,18,word__draft,-1.125022334246396
+word_char_tfidf,benign,19,word__can you,-1.1175089145394903
+word_char_tfidf,benign,20,char__how,-1.0510400497076526

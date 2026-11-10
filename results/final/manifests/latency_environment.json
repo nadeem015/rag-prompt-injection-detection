@@ -1,0 +1,12 @@
+{
+ "python": "3.13.18",
+ "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+ "processor": "x86_64",
+ "cpu_count": 2,
+ "sklearn": "1.9.1",
+ "numpy": "2.5.3",
+ "mean_text_chars": 184.9908256880734,
+ "median_text_chars": 175.0,
+ "note": "shared cloud container, CPU only, single process; not the author's hardware; timings vary run to run",
+ "cpu_model": "Intel(R) Xeon(R) Processor @ 2.30GHz"
+}

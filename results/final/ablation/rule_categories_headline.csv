@@ -1,0 +1,8 @@
+category,hits_injection,hits_benign
+authority_claim,19,0
+data_exfiltration,15,0
+instruction_override,24,6
+output_control,56,0
+prompt_exfiltration,4,2
+role_hijack,0,3
+tool_abuse,4,0

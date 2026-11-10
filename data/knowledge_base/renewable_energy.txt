@@ -1,0 +1,3 @@
+Renewable energy comes from sources that are naturally replenished, such as sunlight, wind, and flowing water. Solar panels convert sunlight into electricity using photovoltaic cells. Wind turbines convert the kinetic energy of moving air into electrical power.
+
+The main benefits of renewable energy include lower greenhouse gas emissions, reduced dependence on imported fuels, and falling generation costs. Storage and grid flexibility are needed because solar and wind output varies with weather.

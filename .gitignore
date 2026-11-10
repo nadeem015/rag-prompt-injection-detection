@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+results/security_events.jsonl
+*.log
+.DS_Store
+results/final_experiment/all_test_predictions.csv
+results/final/predictions/headline_test_predictions_with_text.csv

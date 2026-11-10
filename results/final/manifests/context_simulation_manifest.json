@@ -1,0 +1,11 @@
+{
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "n_carriers": 10,
+  "payload_source": "agentic5k_test (stored)",
+  "no_defence_exposure": 1.0,
+  "caveat": "proxy; no LLM executed"
+}

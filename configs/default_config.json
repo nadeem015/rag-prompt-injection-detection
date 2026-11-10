@@ -1,0 +1,14 @@
+{
+  "detector_mode": "hybrid_fusion",
+  "ml_model": "word_char_tfidf",
+  "ml_threshold": null,
+  "rule_threshold": 0.5,
+  "top_k": 3,
+  "chunk_chars": 600,
+  "chunk_overlap": 100,
+  "min_similarity": 0.05,
+  "screen_query": true,
+  "screen_chunks": true,
+  "max_query_chars": 2000,
+  "_notes": "ml_threshold null means: use the validation-selected value (word_tfidf 0.47, word_char_tfidf 0.60). hybrid_fusion constant (+0.10) and hybrid_or are fixed a priori; see src/config.py."
+}

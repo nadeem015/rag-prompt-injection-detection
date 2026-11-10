@@ -1,0 +1,3 @@
+Retrieval-augmented generation (RAG) combines a retriever with a language model. The retriever finds passages relevant to a question, and those passages are placed into the model's context so that the answer is grounded in external documents.
+
+RAG reduces the need to retrain a model when knowledge changes. However, retrieved passages come from sources the application may not control, so they must be treated as untrusted data.
