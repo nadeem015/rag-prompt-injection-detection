@@ -83,6 +83,8 @@ python -m pytest -q
 streamlit run app.py
 ```
 
+CI renders the app with Streamlit's `AppTest` (`tests/test_app_streamlit.py`) and launches it headless, then checks it serves (Streamlit 1.67, scikit-learn 1.9.1) on every push.
+
 Tabs: Dashboard, Knowledge base (upload / paste / remove documents), Query (retrieved context with per-chunk detection,
 quarantined vs. allowed chunks, boundary-protected prompt), Event history (JSONL log), Evaluation (stored result tables and figures).
 The sidebar offers the five detection modes and the top-k setting. Two synthetic documents prefixed `POISONED_DEMO_` contain planted
